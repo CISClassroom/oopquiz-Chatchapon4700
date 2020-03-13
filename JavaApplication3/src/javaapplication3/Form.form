@@ -32,9 +32,10 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jLabel11" min="-2" pref="36" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
-                              <Component id="T6" min="-2" pref="95" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
                               <Component id="jLabel13" min="-2" pref="81" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                              <Component id="Show" min="-2" pref="48" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -55,8 +56,8 @@
                               </Group>
                               <Component id="T3" min="-2" pref="81" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="T4" min="-2" pref="81" max="-2" attributes="0"/>
                           <Component id="T5" min="-2" pref="81" max="-2" attributes="0"/>
+                          <Component id="T4" min="-2" pref="81" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -92,19 +93,19 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="jLabel9" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="T4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="T2" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="jLabel10" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="T5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="T3" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="jLabel4" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                           <Component id="jLabel8" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                          <Component id="T3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="T4" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
@@ -116,17 +117,22 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel5" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="jLabel7" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="T2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="T5" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel12" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
-                  <Component id="jLabel13" alignment="3" max="32767" attributes="0"/>
-                  <Component id="T6" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel12" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                      <Component id="jLabel13" alignment="3" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                      <Component id="Show" max="32767" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="84" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -190,6 +196,7 @@
         <Property name="text" type="java.lang.String" value="&#xe04;&#xe33;&#xe19;&#xe27;&#xe19;&#xe04;&#xe30;&#xe41;&#xe19;&#xe19;"/>
       </Properties>
       <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bottonMouseClicked"/>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bottonActionPerformed"/>
       </Events>
     </Component>
@@ -218,7 +225,12 @@
         <Property name="text" type="java.lang.String" value="&#xe04;&#xe30;&#xe41;&#xe19;&#xe19;"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="T6">
+    <Component class="javax.swing.JLabel" name="Show">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>

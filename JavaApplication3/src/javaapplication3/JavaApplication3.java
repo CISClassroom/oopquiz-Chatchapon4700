@@ -10,12 +10,8 @@ package javaapplication3;
  * @author USER
  */
 public class JavaApplication3 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+  public double DEVIDE (double num1, double num2 , double num3 , double num4 ,double num5, double T6){
+        return (num1+num2+num3+num4+num5) / T6;
+  }
+  
 }
